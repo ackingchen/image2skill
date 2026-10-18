@@ -1,0 +1,32 @@
+# Private credentials and local configuration
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!.env.example
+auth.json
+config.toml
+credentials*
+secrets*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Generated images, API responses, logs, and temporary files
+imagegen-output/
+outputs/
+raw/
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+
+# Local editor and OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
